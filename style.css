@@ -24,21 +24,15 @@
 
 }
 
+/* login heading */
 h1 {
     font-size: 2em;
     color: #fff;
 }
-#login-button {
-    /* background: ; */
-    font-size: 1.5em;
-    margin-top: 20px;
-    border-radius: 10px;
-    min-width: 8vw
-}
 
+/* email and password input line customization */
 #email-input, #password-input {
     margin-top:20px;
-    /* background: transparent; */
     Width: 75%;
     height: 30px;
     border-bottom: 2px solid #fff;
@@ -47,8 +41,16 @@ h1 {
     font-size: 1.5em;
     border-radius: 10px;
 }
+
+#login-button {
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-radius: 10px;
+    min-width: 8vw
+}
+
+/* changing the color and cursor on the button */
 button:hover {
     background-color:rgb(100, 207, 243);
     cursor: pointer;
 }
-
